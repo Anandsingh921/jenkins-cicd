@@ -10,10 +10,10 @@ RUN apt-get update \
 WORKDIR /usr/src/app
 
 # copying requirement.txt file to present working directory
-COPY requirements.txt ./
+# COPY requirements.txt ./
 
-# installing dependency in container
-RUN pip install -r requirements.txt
+# installing dependency in containerknwjedosjfosdnlkewlew
+# RUN pip install -r requirements.txt
 
 # copying all the files to present working directory
 COPY . .
